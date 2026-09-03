@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John-Rey | Web Developer &amp; Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<header class="navbar" id="navbar">
+  <nav class="nav-container">
+    <a href="#home" class="logo">John-Rey</a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#works" class="nav-link">Works</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <div class="hero-content">
+    <p class="hero-greeting reveal-fade">Hello, I am</p>
+    <h1 class="hero-name reveal-fade">John-Rey</h1>
+    <h2 class="hero-tagline reveal-fade">I develop and design</h2>
+    <p class="hero-intro reveal-fade">
+      I build modern, responsive, and user-friendly digital experiences.
+    </p>
+    <div class="hero-buttons reveal-fade">
+      <a href="#works" class="btn btn-primary">View My Works</a>
+      <a href="#contact" class="btn btn-secondary">Contact Me</a>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+    <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
+  </a>
+</section>
+
+<!-- ===== ABOUT SECTION ===== -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="section-tag">About Me</span>
+      <h2 class="section-title">Get to know me</h2>
+    </div>
+
+    <div class="about-content">
+      <div class="about-image reveal">
+        <div class="about-image-frame">
+          <img src="https://placehold.co/500x600/2f3b32/f4f1ea?text=John-Rey" alt="Portrait of John-Rey">
+        </div>
+        <div class="about-image-accent"></div>
+      </div>
+
+      <div class="about-text reveal">
+        <p>
+          I'm John-Rey, a recent Information Technology graduate with a genuine passion for
+          building things that live on the internet. From clean, functional websites to
+          full-scale applications, I enjoy turning ideas into digital solutions that are
+          both practical and pleasant to use.
+        </p>
+        <p>
+          My journey into tech started with curiosity and has grown into a full-blown
+          dedication to writing clean code, designing intuitive interfaces, and continuously
+          learning new tools and frameworks. I care about the small details — spacing,
+          consistency, and how an interface feels to use, not just how it looks.
+        </p>
+        <p>
+          When I'm not coding, I'm usually exploring new design trends, contributing to
+          personal projects, or sharpening my problem-solving skills with fresh challenges.
+        </p>
+
+        <div class="about-stats">
+          <div class="stat-item">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">1</span>
+            <span class="stat-label">IT Degree</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Dedication</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WORKS / PROJECTS SECTION ===== -->
+<section class="works" id="works">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="section-tag">Portfolio</span>
+      <h2 class="section-title">Here are my works</h2>
+      <p class="section-subtitle">A collection of projects that reflect my skills and interests.</p>
+    </div>
+
+    <div class="works-grid">
+
+      <article class="project-card reveal">
+        <div class="project-image">
+          <img src="https://placehold.co/600x400/2f3b32/f4f1ea?text=SyllabEase" alt="SyllabEase project preview">
+          <div class="project-overlay">
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">SyllabEase</h3>
+          <p class="project-desc">A web-based system that streamlines syllabus creation and management for academic institutions.</p>
+          <div class="project-tags">
+            <span class="tag">Laravel</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-image">
+          <img src="https://placehold.co/600x400/2f3b32/f4f1ea?text=FacilitEase" alt="FacilitEase project preview">
+          <div class="project-overlay">
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">FacilitEase</h3>
+          <p class="project-desc">A facility reservation and management platform designed to simplify booking workflows.</p>
+          <div class="project-tags">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">CSS</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-image">
+          <img src="https://placehold.co/600x400/2f3b32/f4f1ea?text=MonitorPal" alt="MonitorPal project preview">
+          <div class="project-overlay">
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">MonitorPal</h3>
+          <p class="project-desc">A real-time monitoring dashboard that visualizes key data points for quick decision-making.</p>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">REST API</span>
+            <span class="tag">Python</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-image">
+          <img src="https://placehold.co/600x400/2f3b32/f4f1ea?text=E-Commerce" alt="E-Commerce Website project preview">
+          <div class="project-overlay">
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">E-Commerce Website</h3>
+          <p class="project-desc">A fully responsive online store with product listings, cart functionality, and checkout flow.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-image">
+          <img src="https://placehold.co/600x400/2f3b32/f4f1ea?text=Student+Mgmt" alt="Student Management System project preview">
+          <div class="project-overlay">
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">Student Management System</h3>
+          <p class="project-desc">A system for managing student records, grades, and enrollment with an intuitive admin panel.</p>
+          <div class="project-tags">
+            <span class="tag">Laravel</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">PHP</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-image">
+          <img src="https://placehold.co/600x400/2f3b32/f4f1ea?text=Dashboard" alt="Personal Dashboard project preview">
+          <div class="project-overlay">
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">Personal Dashboard</h3>
+          <p class="project-desc">A customizable productivity dashboard for tracking tasks, habits, and daily goals.</p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">REST API</span>
+            <span class="tag">CSS</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS SECTION ===== -->
+<section class="skills" id="skills">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="section-tag">What I Know</span>
+      <h2 class="section-title">Skills</h2>
+      <p class="section-subtitle">Technologies and tools I work with.</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal"><span class="skill-icon">🌐</span><span class="skill-name">HTML</span></div>
+      <div class="skill-card reveal"><span class="skill-icon">🎨</span><span class="skill-name">CSS</span></div>
+      <div class="skill-card reveal"><span class="skill-icon">⚡</span><span class="skill-name">JavaScript</span></div>
+      <div class="skill-card reveal"><span class="skill-icon">🐘</span><span class="skill-name">PHP</span></div>
+      <div class="skill-card reveal"><span class="skill-icon">🅻</span><span class="skill-name">Laravel</span></div>
+      <div class="skill-card reveal"><span class="skill-icon">🗄️</span><span class="skill-name">MySQL</span></div>
+      <div class="skill-card reveal"><span class="skill-icon">🐍</span><span class="skill-name">Python</span></div>
+      <div class="skill-card reveal"><span class="skill-icon">⚛️</span><span class="skill-name">React</span></div>
+      <div class="skill-card reveal"><span class="skill-icon">🔧</span><span class="skill-name">Git</span></div>
+      <div class="skill-card reveal"><span class="skill-icon">🐙</span><span class="skill-name">GitHub</span></div>
+      <div class="skill-card reveal"><span class="skill-icon">🔗</span><span class="skill-name">REST API</span></div>
+      <div class="skill-card reveal"><span class="skill-icon">📱</span><span class="skill-name">Responsive Design</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SOFT SKILLS SECTION ===== -->
+<section class="soft-skills" id="soft-skills">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="section-tag">Beyond Code</span>
+      <h2 class="section-title">Soft Skills</h2>
+      <p class="section-subtitle">The qualities that shape how I work and collaborate.</p>
+    </div>
+
+    <div class="soft-skills-grid">
+      <div class="soft-skill-card reveal">
+        <span class="soft-skill-icon">💬</span>
+        <h3>Communication</h3>
+      </div>
+      <div class="soft-skill-card reveal">
+        <span class="soft-skill-icon">🤝</span>
+        <h3>Teamwork</h3>
+      </div>
+      <div class="soft-skill-card reveal">
+        <span class="soft-skill-icon">🧩</span>
+        <h3>Problem Solving</h3>
+      </div>
+      <div class="soft-skill-card reveal">
+        <span class="soft-skill-icon">🔄</span>
+        <h3>Adaptability</h3>
+      </div>
+      <div class="soft-skill-card reveal">
+        <span class="soft-skill-icon">⏱️</span>
+        <h3>Time Management</h3>
+      </div>
+      <div class="soft-skill-card reveal">
+        <span class="soft-skill-icon">🧭</span>
+        <h3>Leadership</h3>
+      </div>
+      <div class="soft-skill-card reveal">
+        <span class="soft-skill-icon">🔍</span>
+        <h3>Attention to Detail</h3>
+      </div>
+      <div class="soft-skill-card reveal">
+        <span class="soft-skill-icon">🧠</span>
+        <h3>Critical Thinking</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="section-title">Contact</h2>
+      <p class="section-subtitle">Have a project in mind? Let's talk about it.</p>
+    </div>
+
+    <div class="contact-content">
+      <div class="contact-info reveal">
+        <div class="contact-item">
+          <span class="contact-icon">✉️</span>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:johnrey.dev@example.com">johnrey.dev@example.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">🐙</span>
+          <div>
+            <h4>GitHub</h4>
+            <a href="https://github.com/johnrey-dev" target="_blank" rel="noopener">github.com/johnrey-dev</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">💼</span>
+          <div>
+            <h4>LinkedIn</h4>
+            <a href="https://linkedin.com/in/johnrey-dev" target="_blank" rel="noopener">linkedin.com/in/johnrey-dev</a>
+          </div>
+        </div>
+
+        <a href="mailto:johnrey.dev@example.com" class="btn btn-primary contact-btn">Say Hello</a>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer-content">
+    <p>&copy; 2026 John-Rey. All rights reserved.</p>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
